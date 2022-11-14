@@ -2,6 +2,22 @@
     --main-color: #1E72CE;
 }
 
+footer {
+    background-color: #01449C;
+}
+
+img.arrow-down{
+    width: 10px;
+}
+
+img.lens{
+    width: 30px;
+}
+
+a.black-button{
+    background-color: #363636;
+}
+
 a.orange-button{
     background-color: #CD3E2B;
 }
@@ -24,6 +40,27 @@ p.subtitle{
     font-size: 1.3rem;
     color: #727272;
 }
+
+img.main-logo{
+    width: 100px;
+}
+
+img.globe{
+    width: 25px;
+}
+
+p.country{
+    vertical-align: bottom;
+}
+
+img.secondary-logo{
+    width: 120px;
+}
+
+p.copyright{
+    font-size: .8rem;
+}
+
 
 header section.header-top img{
     width: 80px;
@@ -85,4 +122,7 @@ header section.header-top img{
     font-size: .97rem;
 }
 
+#ps-now{
+    background-color: #161C3B;
+}
 
