@@ -1,9 +1,25 @@
+header section.header-top img{
+    width: 80px;
+    
+}
+
 #jumbotron{
     background-image: url(./img/jumbo-bg.png);
     background-position: center;
+    background-repeat: no-repeat;
     min-height: 650px;
+    padding-top: 280px;
+}
+
+#jumbotron h3{
+    font-size: 2.5rem;
 }
 
 a.orange-button{
     background-color: #CD3E2B;
+}
+
+#game-cards div.img-radius{
+    border: 2px #2D64E7 solid;
+    border-radius: 20px;
 }
