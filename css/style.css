@@ -1,6 +1,27 @@
+:root{
+    --main-color: #1E72CE;
+}
+
+a.orange-button{
+    background-color: #CD3E2B;
+}
+
+a.blue-button{
+    background-color: #2D64E7;
+}
+
+p.surtitle{
+    font-size: .9rem;
+    color: var(--main-color);
+}
+
+p.subtitle{
+    font-size: 1.3rem;
+    color: #727272;
+}
+
 header section.header-top img{
     width: 80px;
-    
 }
 
 #jumbotron{
@@ -11,15 +32,43 @@ header section.header-top img{
     padding-top: 280px;
 }
 
-#jumbotron h3{
+#jumbotron h3,
+#new-releases h3{
     font-size: 2.5rem;
 }
 
-a.orange-button{
-    background-color: #CD3E2B;
-}
-
 #game-cards div.img-radius{
-    border: 2px #2D64E7 solid;
+    border: 2px var(--main-color) solid;
     border-radius: 20px;
 }
+
+#game-cards{
+    margin-bottom: 4rem;
+}
+
+#ps5 h2,
+#ps4 h2{
+    font-size: 2.1rem;
+}
+
+#ps5 div.active-border-bottom{
+    border-bottom: 2px var(--main-color) solid;
+}
+
+#new-releases{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding-top: 50px;
+}
+
+#new-releases-cards{
+    background-color: #1F1F1F;
+}
+
+#new-releases-cards h4{
+    font-size: 2.4rem;
+}
+
