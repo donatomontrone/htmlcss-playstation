@@ -10,6 +10,11 @@ a.blue-button{
     background-color: #2D64E7;
 }
 
+a.light-button{
+    background-color: #D9DADC;
+    color: var(--main-color);
+}
+
 p.surtitle{
     font-size: .9rem;
     color: var(--main-color);
@@ -48,7 +53,7 @@ header section.header-top img{
 
 #ps5 h2,
 #ps4 h2{
-    font-size: 2.1rem;
+    font-size: 2.4rem;
 }
 
 #ps5 div.active-border-bottom{
@@ -71,4 +76,13 @@ header section.header-top img{
 #new-releases-cards h4{
     font-size: 2.4rem;
 }
+
+#ps-plus{
+    background-color: #BFBCBB;
+}
+
+#ps-plus p {
+    font-size: .97rem;
+}
+
 
