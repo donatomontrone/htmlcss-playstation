@@ -1,0 +1,9 @@
+#jumbotron{
+    background-image: url(./img/jumbo-bg.png);
+    background-position: center;
+    min-height: 650px;
+}
+
+a.orange-button{
+    background-color: #CD3E2B;
+}
