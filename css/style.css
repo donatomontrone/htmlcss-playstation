@@ -7,10 +7,30 @@ footer {
 }
 
 
-img.arrow-down{
+img.arrow-down-gray,
+img.arrow-down-blue{
     width: 10px;
 }
 
+img.arrow-down-blue{
+    display: none;
+}
+
+header ul li a{
+    color: black;
+}
+
+section.header-bottom ul li a:hover img.arrow-down-blue{
+    display: inline-block;
+}
+
+section.header-bottom ul li a:hover img.arrow-down-gray{
+    display: none;
+}
+
+section.header-bottom ul li a:hover section.header-bottom ul li a{
+    color:#1B70D1;
+}
 img.lens{
     width: 20px;
 }
@@ -86,6 +106,7 @@ header section.header-top img{
     border-radius: 20px;
 }
 
+
 #game-cards{
     margin-bottom: 4rem;
 }
@@ -95,9 +116,23 @@ header section.header-top img{
     font-size: 2.4rem;
 }
 
+
 #ps5 div.active-border-bottom{
     border-bottom: 2px var(--main-color) solid;
 }
+
+#ps5 div.border-bottom-hover{
+    border-bottom: 2px transparent solid;
+    opacity: 50%;
+}
+
+#ps5 div.border-bottom-hover:hover{
+    border-bottom: 2px var(--main-color) solid;
+    opacity: 100%;
+}
+
+
+
 
 #new-releases{
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
