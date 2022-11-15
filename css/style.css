@@ -24,15 +24,15 @@ header ul li a{
     color: black;
 }
 
-section.header-bottom ul li a:hover img.arrow-down-blue{
+section.header-nav ul li a:hover img.arrow-down-blue{
     display: inline-block;
 }
 
-section.header-bottom ul li a:hover img.arrow-down-gray{
+section.header-nav ul li a:hover img.arrow-down-gray{
     display: none;
 }
 
-section.header-bottom ul li a:hover section.header-bottom ul li a{
+section.header-nav ul li a:hover section.header-nav ul li a{
     color:#1B70D1;
 }
 img.lens{
@@ -87,7 +87,7 @@ p.copyright{
 }
 
 
-header section.header-top img{
+aside img{
     width: 80px;
 }
 
@@ -95,9 +95,8 @@ header section.header-top img{
     background-image: url(./img/jumbo-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 650px;
-    margin-top: 107px;
-    padding-top: 290px;
+    min-height: 680px;
+    padding-top: 320px;
 }
 
 #jumbotron h3,
