@@ -6,12 +6,13 @@ footer {
     background-color: #01449C;
 }
 
+
 img.arrow-down{
     width: 10px;
 }
 
 img.lens{
-    width: 30px;
+    width: 20px;
 }
 
 a.black-button{
@@ -71,7 +72,8 @@ header section.header-top img{
     background-position: center;
     background-repeat: no-repeat;
     min-height: 650px;
-    padding-top: 280px;
+    margin-top: 107px;
+    padding-top: 290px;
 }
 
 #jumbotron h3,
