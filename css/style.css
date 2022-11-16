@@ -109,14 +109,21 @@ aside img{
     border-radius: 20px;
 }
 
-#game-cards div.img-radius-hover{
-    border: 2px transparent solid;
-    border-radius: 20px;
+#game-cards div.slide-top:hover img.img-shadow{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-#game-cards div.img-radius-hover:hover{
-    border: 2px var(--main-color) solid;
-    border-radius: 20px;
+#game-cards div.slide-top:hover {
+	animation: slide-top 0.5s ease-in-out both;
+}
+
+@keyframes slide-top {
+    0% {
+    transform: translateY(0);
+    }
+    100% {
+    transform: translateY(-15px);
+    }
 }
 
 
@@ -134,13 +141,12 @@ aside img{
     border-bottom: 2px var(--main-color) solid;
 }
 
-#ps5 div.border-bottom-hover{
+#ps5 div.opacity-hover{
     border-bottom: 2px transparent solid;
     opacity: 50%;
 }
 
-#ps5 div.border-bottom-hover:hover{
-    border-bottom: 2px var(--main-color) solid;
+#ps5 div.opacity-hover:hover{
     opacity: 100%;
 }
 
