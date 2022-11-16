@@ -109,7 +109,7 @@ aside img{
 
 #rollerdrome{
     background-image: linear-gradient( 90deg,rgba(0, 0, 0, 0.9) 60%, rgba(255, 255, 255, 0.8)), url(img/rollerdrome-screenshot-06-en-25jul22.webp);
-    padding: 10rem 0;
+    padding-bottom: 15rem;
 
 }
 
@@ -119,4 +119,25 @@ aside img{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0rem;
+    top: 55%;
+    right: 8%;
+}
+
+#rollerdrome div.img-player{
+    margin-top: 3rem;
+}
+
+#upcoming{
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-indies-content-background-block-desktop-02-en-18jun21?$2400px$);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#upcoming div.upcoming-cards{
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-indies-content-background-block-01-en-18jun21?$1600px$);
+    background-position: top;
+    background-position: cover;
+    background-repeat: no-repeat;
+    padding: 0 1.5rem;
 }
