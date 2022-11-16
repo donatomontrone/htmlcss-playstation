@@ -2,6 +2,9 @@
     --main-color: #1E72CE;
 }
 
+p{
+    line-height: 1.7rem;
+}
 
 footer {
     background-color: #01449C;
@@ -101,5 +104,19 @@ aside img{
     background-position: top;
     background-position: cover;
     background-repeat: no-repeat;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
+}
+
+#rollerdrome{
+    background-image: linear-gradient( 90deg,rgba(0, 0, 0, 0.9) 60%, rgba(255, 255, 255, 0.8)), url(img/rollerdrome-screenshot-06-en-25jul22.webp);
+    padding: 10rem 0;
+
+}
+
+#rollerdrome div.game-bg{
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-indies-content-background-block-01-en-16jun21?$800px$);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0rem;
 }
