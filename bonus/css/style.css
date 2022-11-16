@@ -1,0 +1,105 @@
+:root{
+    --main-color: #1E72CE;
+}
+
+
+footer {
+    background-color: #01449C;
+}
+
+
+img.arrow-down-gray,
+img.arrow-down-blue{
+    width: 10px;
+}
+
+img.arrow-down-blue{
+    display: none;
+}
+
+header ul li a{
+    color: black;
+}
+
+section.header-nav ul li a:hover img.arrow-down-blue{
+    display: inline-block;
+}
+
+section.header-nav ul li a:hover img.arrow-down-gray{
+    display: none;
+}
+
+section.header-nav ul li a:hover section.header-nav ul li a{
+    color:#1B70D1;
+}
+img.lens{
+    width: 20px;
+}
+
+a.black-button{
+    background-color: #363636;
+}
+
+a.orange-button{
+    background-color: #CD3E2B;
+}
+
+a.blue-button{
+    background-color: #2D64E7;
+}
+
+a.light-button{
+    background-color: #D9DADC;
+    color: var(--main-color);
+}
+
+img.main-logo{
+    width: 100px;
+}
+
+img.globe{
+    width: 25px;
+}
+
+p.country{
+    vertical-align: bottom;
+}
+
+img.secondary-logo{
+    width: 120px;
+}
+
+p.copyright{
+    font-size: .8rem;
+}
+
+
+aside img{
+    width: 80px;
+}
+
+#jumbotron{
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-indies-content-background-block-01-en-16jun21?$2400px$);
+    background-position: top;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+#jumbotron img.logo-indies {
+    padding-top: 6rem;
+}
+
+#latest-news{
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-indies-content-background-block-desktop-01-en-18jun21?$2400px$);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#latest-news div.ps-cards{
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-indies-content-background-block-01-en-16jun21?$800px$);
+    background-position: top;
+    background-position: cover;
+    background-repeat: no-repeat;
+    padding: 0 1rem;
+}

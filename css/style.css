@@ -94,6 +94,7 @@ aside img{
 #jumbotron{
     background-image: url(./img/jumbo-bg.png);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     min-height: 680px;
     padding-top: 320px;
